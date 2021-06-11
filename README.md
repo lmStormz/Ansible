@@ -13,6 +13,7 @@ Voici le lien de la documentation Ansible : https://docs.ansible.com/
 1 Pré-requis ```Ansible ```
 
   * Mettre à jour la liste de paquets ```sudo dnf update>```
+  * Aoivr les paquets git installés ```sudo dnf install git>```
   * Autoriser les répertoires EPEL ```sudo dnf install epel-release```
   * Installer un serveur OpenSSH ```sudo dnf install openssh-server ```
   * Activer le SSH ```systemctl enable ssh```
