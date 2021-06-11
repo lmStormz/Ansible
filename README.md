@@ -15,8 +15,9 @@ Voici le lien de la documentation Ansible : https://docs.ansible.com/
   * Mettre à jour la liste de paquets ```sudo dnf update>```
   * Aoivr les paquets git installés ```sudo dnf install git```
   * Autoriser les répertoires EPEL ```sudo dnf install epel-release```
+  * Mettre à jour la liste de paquets ```sudo dnf update>```
   * Installer un serveur OpenSSH ```sudo dnf install openssh-server ```
-  * Activer le SSH ```systemctl enable ssh```
+  * Activer le SSH ```systemctl enable sshd```
   * Autoriser le port 22 ```firewall-cmd --zone=public --permanent --add-port=22/tcp```
 
 2 Installation d'```Ansible```
