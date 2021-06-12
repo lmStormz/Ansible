@@ -1,5 +1,3 @@
---
-
 - name: Installation de Gitlab
   hosts: lab
   remote_user: '{{ user_gitlab }}'
