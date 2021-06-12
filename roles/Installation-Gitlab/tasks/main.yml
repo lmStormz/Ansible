@@ -1,0 +1,16 @@
+- name: Installation des dependances
+  package:
+    name:
+      - curl
+      - policycoreutils
+      - openssh-server
+      - perl
+      - gitlab-ce
+    state: present
+
+- name: Ajout des repo gitlab
+  uri:
+    url: https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh
+
+- name: definition de l adresse du Gitlab
+  command: EXTERNAL_URL="http://lab.gitlab.com"
