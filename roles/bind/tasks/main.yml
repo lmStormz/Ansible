@@ -1,0 +1,5 @@
+- name: installation de bind
+  host: "{{ dns }}"
+    dnf:
+      name : bind, bind-utils
+      state : present
