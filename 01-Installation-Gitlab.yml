@@ -1,5 +1,0 @@
-- name: Installation de Gitlab
-  hosts: lab
-  become: yes
-  become_user: "{{ user_gitlab }}"
-  become_method: sudo
